@@ -1,0 +1,59 @@
+
+.back{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    background-position: center;
+}
+
+.DC{
+    
+    background-image: linear-gradient(rgba(53, 53, 53, 0.5), rgba(53, 53, 53, 0.5)), url('./Hstore/DC.webp');
+}
+
+.GRUV{
+    background-image: linear-gradient(rgba(53, 53, 53, 0.5), rgba(53, 53, 53, 0.5)),url('./Hstore/groove.webp');
+}
+
+.OCTAVE{
+    background-image: linear-gradient(rgba(53, 53, 53, 0.5), rgba(53, 53, 53, 0.5)),url('./Hstore/oct.webp');
+}
+.KALAKAKSH{
+    background-image: linear-gradient(rgba(53, 53, 53, 0.5), rgba(53, 53, 53, 0.5)),url('./Hstore/kala2.webp');
+    background-position: center;
+    object-fit: contain;
+}
+
+@media screen and (min-width: 350px) {
+    .para {
+        font-size: 1.20rem;
+        font-weight: 600;
+
+    }   
+
+    .cont{
+        font-size: 2.01rem;
+        bottom: -48px;
+    }
+    
+    .insta{
+        height: 32px;
+    }
+    
+}
+
+@media screen and (min-width: 400px) {
+    .para {
+        font-size: 1.55rem;
+        font-weight: 600;
+    }    
+
+    .cont{
+        font-size: 3.35rem;
+        bottom: -68px;
+    }
+
+    .insta{
+        height: 55px;
+    }
+}
